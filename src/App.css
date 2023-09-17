@@ -1,0 +1,230 @@
+/* background color / text color for entire page */
+* {
+  box-sizing: border-box;
+  background-color: black;
+  color:white;
+}
+
+
+/* root options (only have font) */
+:root {
+  --base-font: 'American Typewriter','American Typewriter 300', serif;
+
+}
+
+
+/* header allignment and font settings */
+header {
+  font-family:var(--base-font);
+  align-items: center;
+  display: top;
+  text-align: center;
+}    
+
+
+/* display settings, font size and alignment settings for header h1 */    
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+  align-items: right;
+  display: inline-block;    
+}
+
+/* header nav list settings  */
+.header-links {    
+  float: right;  
+  margin-left: 15px;
+  list-style: none;
+}
+
+.header-links li {    
+  float: left;  
+  margin-left: 15px;
+  list-style: none;
+}
+
+
+/* font size for paragraphs */
+p {
+  font-size:25;
+}
+
+
+/* text settings for work-section */
+.work-section {
+  font-family:var(--base-font);
+  float: right;
+  flex-wrap: wrap;
+  width: 50%;
+  
+}
+
+
+/* display settings for work-section images */
+.work-section img {
+  width: 100%; 
+  object-fit: contain;
+  object-position: top;
+
+
+}
+
+
+
+/* section class settings for about me section */
+.about-me {
+  font-family:var(--base-font);
+  float: left;
+  width: 25%;
+}
+
+
+/* section class settings for about me section headers*/
+.about-me h2 {
+  text-align: right;
+  width: 85%;
+  font-family:var(--base-font);
+}
+
+
+/* text settings for about me paragraphs */
+.about-me p{
+  margin-bottom: 20px;
+  font-family:var(--base-font);
+  font-size: 75%;
+  width: 85%;
+  text-align: right;
+
+}
+/* text settings for resume paragraphs */
+.resume p{
+  
+  font-family:var(--base-font);
+  font-size: 75%;
+  width: 85%;
+  text-align: right;
+
+}
+/* section class settings for about me section headers*/
+.resume h2{
+  text-align: right;
+  width: 85%;
+  font-family:var(--base-font);
+  margin-bottom: 20px;
+}
+
+
+/* section class settings for about me list */
+.about-me ul{
+  margin-bottom: 20px;
+  font-family:var(--base-font);
+  font-size: 75%;
+  width: 85%;
+  text-align: right;
+  list-style: none;
+
+}
+
+
+/* display settings for about me section */
+#about-me {
+  display:left;
+  width: 50vw;
+}
+
+
+/* display settings for contact section */
+#contact {
+  display:left;
+  width: 50vw;
+}
+
+
+/* display settings for work section */
+#work {
+  display:left;
+  width: 50vw;
+}
+
+
+/* display settings for resume section */
+#resume {
+  display:left;
+  width: 50vw;
+}
+
+
+/* class is how the avatar is displayed */
+.top-image {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  position: relative;
+  left: 33%;
+
+}
+
+
+/* display settings for personal information section (about me area) */
+.personal-information {
+  display:flex;
+  flex-direction: column;
+}
+
+
+/* display settings for main */
+main {
+  display:flex;
+}
+
+
+/* display settings for main work section (the larger work image/horiseon) */
+#main-work-section {
+  width: 100%;
+}
+
+
+
+/* position settings for work-section class header3 */
+.work-section h3 {
+  position: relative;
+  background-color: transparent;
+  left: 20%;
+
+
+}
+
+
+/* position settings for work-section-placeholders class headers3 */
+.work-section-placeholders h3 {
+  position: relative;
+  bottom: 50px;
+  left: 20%;
+
+
+}
+
+
+
+/* this will adjust work-section-placeholders (images) to be responsive to given viewport */
+@media screen and (max-width: 700px) {
+  .work-section-placeholders {
+      display: flex;
+      flex-direction: column;
+  }
+
+}
+
+
+/* this will adjust header links (contact/work/resume/aboutme) to be responsive to given viewport */
+@media screen and (max-width: 700px) {
+.header-links {    
+  float: right;  
+  display: flex;
+  margin-left: 15px;
+  list-style: none;
+  flex-direction: column;
+  text-align: right;
+
+}
+}
