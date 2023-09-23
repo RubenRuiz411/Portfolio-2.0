@@ -37,7 +37,7 @@ const Home = () => {
   ]
 
   useEffect(() => {
-    return setTimeout(() => {
+    return ()=> setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
@@ -80,7 +80,7 @@ const Home = () => {
         <Logo />
       </div>
 
-      <Loader type="square-spin" />
+      <Loader type="ball-zig-zag-deflect" />
     </>
   )
 }
