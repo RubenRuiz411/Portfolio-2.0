@@ -90,7 +90,7 @@
   }
 
   .home-page .text-zone {
-    position: initial;
+    position: center;
     width: 100%;
     transform: none;
     padding: 10px;
@@ -117,7 +117,7 @@
 
   .logo-container svg {
     position: absolute;
-    top: auto;
+    top: 50%;
     right: auto;
     bottom: auto;
     left: 0;

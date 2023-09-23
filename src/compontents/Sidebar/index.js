@@ -1,18 +1,15 @@
-import './index.scss'
-import { useState } from 'react'
-import LogoR from '../../assets/images/logo-portfolio.png'
-import { Link, NavLink } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './index.scss';
+import { useState } from 'react';
+import LogoR from '../../assets/images/logo-portfolio.png';
+import { Link, NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import {
-    faLinkedin,
-    faGithub,
-  } from '@fortawesome/free-brands-svg-icons'
-  import {
-    faHome,
-    faUser,
-    faEnvelope,
-    faSuitcase,
-  } from '@fortawesome/free-solid-svg-icons'
+  faHome,
+  faUser,
+  faEnvelope,
+  faSuitcase,
+} from '@fortawesome/free-solid-svg-icons';
 
 // const Sidebar = () => (
 //     <div className='nav-bar'>
@@ -23,31 +20,29 @@ import {
 // )
 
 const Sidebar = () => {
-    const [showNav, setShowNav] = useState(false);
-  
-    return (
-      <div className="nav-bar">
-        <Link 
-          className="logo"
-          to="/"
-          onClick={() => setShowNav(false)}>
-          <img src={LogoR} alt="Logo" />
+  const [showNav, setShowNav] = useState(false);
 
-        </Link>
-        <ul>
+  return (
+    <div className="nav-bar">
+      <Link className="logo" to="/" onClick={() => setShowNav(false)}>
+        <img src={LogoR} alt="Logo" />
+      </Link>
+      <ul>
         <nav className={showNav ? 'mobile-show' : ''}>
-          <NavLink 
+          <NavLink
             exact="true"
             activeclassname="active"
             to="/"
-            onClick={() => setShowNav(false)}>
+            onClick={() => setShowNav(false)}
+          >
             <FontAwesomeIcon icon={faHome} color="#FFD700" />
           </NavLink>
-          <NavLink 
+          <NavLink
             activeclassname="active"
             className="about-link"
             to="/about"
-            onClick={() => setShowNav(false)}>
+            onClick={() => setShowNav(false)}
+          >
             <FontAwesomeIcon icon={faUser} color="#FFD700" />
           </NavLink>
           <NavLink
@@ -66,9 +61,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon icon={faEnvelope} color="#FFD700" />
           </NavLink>
-
-        </nav>
-
+          <NavLink activeclassname="active" className="linkedin-link">
             <a
               href="https://www.linkedin.com/in/ruben-ruiz-821753132/"
               target="_blank"
@@ -80,8 +73,8 @@ const Sidebar = () => {
                 className="anchor-icon"
               />
             </a>
-
-
+          </NavLink>
+          <NavLink activeclassname="active" className="github-link">
             <a
               href="https://github.com/RubenRuiz411"
               target="_blank"
@@ -93,13 +86,11 @@ const Sidebar = () => {
                 className="anchor-icon"
               />
             </a>
+          </NavLink>
+        </nav>
+      </ul>
+    </div>
+  );
+};
 
-        </ul>
-      </div>
-    )
-  }
-  
-
-  
-
-export default Sidebar
+export default Sidebar;
