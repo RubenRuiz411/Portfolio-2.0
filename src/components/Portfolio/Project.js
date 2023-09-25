@@ -9,8 +9,9 @@ function Project(props) {
             <div className="card">
               <div className="card-image">
                 <figure className="image is-4by3">
+                <br/>
                   <a href={project.live} target="_blank" rel="noreferrer">
-                    {/* <img className="imagesize" src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" /> */}
+                    <img className="imagesize" src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
                   </a>
                 </figure>
               </div>
@@ -29,18 +30,22 @@ function Project(props) {
                   <br />
                   <br />
                   <div className="content is-family-code">
-                    Languages: {project.languages}
+                   <p class="title-sub"> Languages:</p> {project.languages}
                     <br />
-                    NPM Packages: {project.packages}
+                    <p class="title-sub"> NPM Packages:</p> {project.packages}<br/>
+
                   </div>
+                  
                   <div className="card">
                     <footer className="card-footer">
+                    <br/>
                       <a
                         href={project.repo}
                         className="card-footer-item"
                         target="_blank" rel="noreferrer"
                       >
-                        See the Repo!
+
+                        GitHub Repository
                       </a>
                       <br />
                       <a
@@ -48,14 +53,18 @@ function Project(props) {
                         className="card-footer-item"
                         target="_blank" rel="noreferrer"
                       >
-                        See the Live Site!
+                        Live Page
                       </a>
                     </footer>
+                    <br />
+                    <hr class="rounded"></hr>
+                    <br />
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          
         ))}
       </div>
     </div>

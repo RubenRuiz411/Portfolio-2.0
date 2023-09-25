@@ -1,3 +1,18 @@
-.title{
+.media {
     font-weight: bold;
   }
+
+.imagesize {
+  width:500px;
+  position:relative;
+  right: 8%;
+}
+
+.card-footer-item {
+  color:white;
+  font-weight: bold;
+}
+hr.rounded {
+  border-top: 8px solid #f6d702;
+  border-radius: 5px;
+}
