@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-//import LogoTitle from '../../assets/images/logo-portfolio.png'
 import Logo from './Logo'
 import './index.scss'
 
@@ -47,29 +46,26 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-          <span className={`${letterClass} _27`}>H</span>
-            <span className={`${letterClass} _28`}>e</span>
-            <span className={`${letterClass} _29`}>l</span>
-            <span className={`${letterClass} _30`}>l</span>
-            <span className={`${letterClass} _31`}>o</span>
+          <span className={letterClass}>H</span>
+            <span className={`${letterClass} _12`}>e</span>
+            <span className={`${letterClass} _13`}>l</span>
+            <span className={`${letterClass} _14`}>l</span>
+            <span className={`${letterClass} _15`}>o</span>
             <br />
-            <span className={`${letterClass} _32`}>I</span>
-            <span className={`${letterClass} _33`}>'m</span>
-            <span className={`${letterClass} _34`}> </span>
-            {/* <img
-              src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
-            /> */}
+            <span className={`${letterClass} _16`}>I</span>
+            <span className={`${letterClass} _17`}>'m</span>
+            <span className={`${letterClass}`}> </span>
+
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={20}
+              idx={15}
             />
             <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={5}
+              idx={15}
             />
           </h1>
           <h2>Full Stack Developer / JavaScript Expert </h2>

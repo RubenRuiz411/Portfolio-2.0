@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap-trial';
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
 import LogoR from '../../../assets/images/lines-logo4.png';
-import LogoR2 from '../../../assets/images/lines-logo2.svg';
 import './index.scss';
 
 const Logo = () => {
@@ -39,7 +38,7 @@ const Logo = () => {
 
   return (
     <div className="logo-container" ref={bgRef}>
-            <img
+      <img
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoR}

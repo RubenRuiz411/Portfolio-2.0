@@ -11,14 +11,6 @@ import {
   faSuitcase,
 } from '@fortawesome/free-solid-svg-icons';
 
-// const Sidebar = () => (
-//     <div className='nav-bar'>
-//         <Link className='logo' to='/'>
-//             <img src={LogoR} alt='logo' />
-//         </Link>
-//     </div>
-// )
-
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
 
@@ -61,28 +53,29 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon icon={faEnvelope} color="#FFD700" />
           </NavLink>
-          <NavLink activeclassname="active" className="linkedin-link"
-          
-          to="https://www.linkedin.com/in/ruben-ruiz-821753132/"
-          onClick={() => setShowNav(false)}>
-            
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                color="#FFD700"
-                className="anchor-icon"
-              />
+          <NavLink
+            activeclassname="active"
+            className="linkedin-link"
+            to="https://www.linkedin.com/in/ruben-ruiz-821753132/"
+            onClick={() => setShowNav(false)}
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="#FFD700"
+              className="anchor-icon"
+            />
           </NavLink>
-          <NavLink activeclassname="active" className="github-link"
-          
-          to="https://github.com/RubenRuiz411"
-          onClick={() => setShowNav(false)}>
-
-              <FontAwesomeIcon
-                icon={faGithub}
-                color="#FFD700"
-                className="anchor-icon"
-              />
-            
+          <NavLink
+            activeclassname="active"
+            className="github-link"
+            to="https://github.com/RubenRuiz411"
+            onClick={() => setShowNav(false)}
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              color="#FFD700"
+              className="anchor-icon"
+            />
           </NavLink>
         </nav>
       </ul>
