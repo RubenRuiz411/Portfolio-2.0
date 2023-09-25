@@ -64,7 +64,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Screenshot
 
-![screenshot](/assets/images/portfolio2screenshot.png)
+![screenshot](/src/assets/images/portfolio2screenshot.png)
 
 ## Badges
 
