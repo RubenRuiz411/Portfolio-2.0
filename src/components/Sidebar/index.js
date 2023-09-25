@@ -61,31 +61,28 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon icon={faEnvelope} color="#FFD700" />
           </NavLink>
-          <NavLink activeclassname="active" className="linkedin-link">
-            <a
-              href="https://www.linkedin.com/in/ruben-ruiz-821753132/"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <NavLink activeclassname="active" className="linkedin-link"
+          
+          to="https://www.linkedin.com/in/ruben-ruiz-821753132/"
+          onClick={() => setShowNav(false)}>
+            
               <FontAwesomeIcon
                 icon={faLinkedin}
                 color="#FFD700"
                 className="anchor-icon"
               />
-            </a>
           </NavLink>
-          <NavLink activeclassname="active" className="github-link">
-            <a
-              href="https://github.com/RubenRuiz411"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <NavLink activeclassname="active" className="github-link"
+          
+          to="https://github.com/RubenRuiz411"
+          onClick={() => setShowNav(false)}>
+
               <FontAwesomeIcon
                 icon={faGithub}
                 color="#FFD700"
                 className="anchor-icon"
               />
-            </a>
+            
           </NavLink>
         </nav>
       </ul>

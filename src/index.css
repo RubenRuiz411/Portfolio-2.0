@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #000000;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: block;
 }
 
@@ -22,4 +22,41 @@ body {
   body {
     overflow: visible;
   }
+}
+
+
+
+
+
+
+main {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 30em;
+  margin-right: 30em;
+}
+
+.my-pic {
+	clip-path: circle();
+  width: 250px;
+}
+
+.label {
+  text-align: left;
+}
+
+footer.footer {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    main {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
 }
