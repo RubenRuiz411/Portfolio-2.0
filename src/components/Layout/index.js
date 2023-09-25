@@ -1,3 +1,5 @@
+// imports and functions for layout which includes the sidebar
+
 import { Outlet } from 'react-router-dom';
 import Sidebar from '../Sidebar';
 import './index.scss';

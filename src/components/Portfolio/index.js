@@ -1,3 +1,5 @@
+// imports and functions for portfolio / projects page
+
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -24,7 +26,7 @@ const Portfolio = () => {
       image: "./img/musicshoopascreenshot.png",
       description: "Allows a user to search for songs using Spotify's Music Library and saving favorite songs to a database.",
       repo: "https://github.com/jrsr5599/Project-2",
-      live: "pending",
+      live: "https://github.com/jrsr5599/Project-2",
     },
     {
       id: 1,

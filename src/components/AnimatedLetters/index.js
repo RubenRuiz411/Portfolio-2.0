@@ -1,3 +1,5 @@
+// function for animated letters on various pages 
+
 import './index.scss'
 
 const AnimatedLetters = ({ letterClass, strArray, idx }) => {

@@ -1,3 +1,5 @@
+// imports and functions for animated letters on home page
+
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'

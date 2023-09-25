@@ -1,3 +1,5 @@
+// imports and functions for about page
+
 import { useEffect, useState } from 'react'
 import {
   faBootstrap,

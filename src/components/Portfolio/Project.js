@@ -1,3 +1,5 @@
+// dom elements for project page which is injected by functions in portfolio/index.js
+
 import React from "react";
 
 function Project(props) {

@@ -1,3 +1,5 @@
+// imports and functions for svg logos on home page
+
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap-trial';
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';

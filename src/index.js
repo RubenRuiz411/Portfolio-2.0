@@ -1,3 +1,5 @@
+// imports and function for rendering the dom
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import reportWebVitals from './reportWebVitals'

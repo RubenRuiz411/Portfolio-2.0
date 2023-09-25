@@ -1,3 +1,5 @@
+// imports and functions for contact page, this page doesn't actually work right now
+
 import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import { useRef } from 'react';

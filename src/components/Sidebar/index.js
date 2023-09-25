@@ -1,3 +1,5 @@
+// imports and functions for sidebar
+
 import './index.scss';
 import { useState } from 'react';
 import LogoR from '../../assets/images/logo-portfolio.png';
