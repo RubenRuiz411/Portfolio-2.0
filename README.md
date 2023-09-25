@@ -68,4 +68,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Badges
 
-![Portfolio2.0](https://img.shields.io/badge/Portfolio-2.0-green)
+![Portfolio2.0](https://img.shields.io/badge/Portfolio-2.0-blue)
