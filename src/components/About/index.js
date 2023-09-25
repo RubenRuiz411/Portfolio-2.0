@@ -34,6 +34,7 @@ const About = () => {
               idx={15}
             />
           </h1>
+                <img src="/img/memoji-chef-kiss.png" alt="Placeholder image" />
           <p>
           My name is Ruben Ruiz, and I'm currently employed as a Technical Support Specialist at Bluebeam Inc. I look to transition into a full stack developer. With over 7 years of experience in technical support and troubleshooting, I've developed a strong foundation in software and various operating systems. However, I've always been passionate about development and decided to pursue a career in it.</p>
           <p align="LEFT">
