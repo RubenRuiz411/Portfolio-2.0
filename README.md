@@ -31,8 +31,8 @@ Clone repository and open cloned folder in VS Code. Within the VS Terminal insta
 
 ## Page
 
-pending heroku link
-
+[Portfolio 2.0
+](https://ruben-portfolio2-de278000528e.herokuapp.com/)
 ## Credits
 
 Reference Links:
