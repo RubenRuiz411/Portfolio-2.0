@@ -63,7 +63,7 @@ const Portfolio = () => {
       languages: "NodeJS, SQL, JavaScript",
       packages: "MySQL, Inquirer, AsciiArt ",
       image: "/img/employeetrackerscreenshot.png",
-      description: "Allows an employer to manage deparments, employees, employee roles and salaries",
+      description: "Allows an employer to manage deparments, employees, employee roles and salaries.",
       live: "https://github.com/RubenRuiz411/Employee-Tracker",
       repo: "https://github.com/RubenRuiz411/Employee-Tracker",
     },
