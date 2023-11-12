@@ -94,7 +94,7 @@ const Portfolio = () => {
     <>
       <div className="container about-page">
         <div className="text-zone">
-        <a className="flat-button" href="/Resume-RubenRuiz.pdf" download>Download My Resume</a>
+        <a className="flat-button" href="/RubenRuiz-Resume2023.pdf" download>Download My Resume</a>
         <br></br> <br></br> <br></br> <br></br>
 
           <h1>
