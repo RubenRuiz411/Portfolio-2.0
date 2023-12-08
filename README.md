@@ -2,7 +2,6 @@
 
 ## Description
 
-
 Portfolio page for Resume
 
 - What was your motivation?
